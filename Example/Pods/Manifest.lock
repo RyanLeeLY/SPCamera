@@ -1,0 +1,16 @@
+PODS:
+  - SPCamera (0.1.0)
+
+DEPENDENCIES:
+  - SPCamera (from `../`)
+
+EXTERNAL SOURCES:
+  SPCamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPCamera: 67ece4a0f53e658186aea18d84a85db5b2d98278
+
+PODFILE CHECKSUM: f68343d17ef72efbc0126ba0879b152f31d167c8
+
+COCOAPODS: 1.7.4

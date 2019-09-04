@@ -1,0 +1,6 @@
+framework module Pods_SPCamera_Example {
+  umbrella header "Pods-SPCamera_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

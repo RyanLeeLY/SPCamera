@@ -1,0 +1,22 @@
+{
+  "name": "SPCamera",
+  "version": "0.1.0",
+  "summary": "A light framework for customized camera",
+  "description": "A light framework for customized camera",
+  "homepage": "https://github.com/RyanLeeLY/SPCamera",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yao.li": "yao.li@cootek.cn"
+  },
+  "source": {
+    "git": "https://github.com/RyanLeeLY/SPCamera.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SPCamera/Classes/**/*"
+}

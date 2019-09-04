@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0290EAE53179E62BD0B605CC7112A38B /* SPOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 464A3DB8E3FEE9C02EE7E8712D196926 /* SPOpenGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D435BD9EA8FA0EE413E246A73B1580 /* Pods-SPCamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77991840C002E966A716966D795531E9 /* Pods-SPCamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6EA1AE76DE258300A7CE08BE277DAB /* SPCameraRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D9AD0C98A96DCEE7D829BAA779427 /* SPCameraRecordEncoder.m */; };
+		5A0955AD59CBAAFB0D9B37133728D9EC /* SPCameraRecordEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A9706E4D802825CE86EAEBDE4C464A /* SPCameraRecordEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0FF436E1C4A452743CDA93F51CC89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		64018604E047481F05D4388EA158F69C /* SPCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E789838F8859FF13C9198148BA82908 /* SPCamera-dummy.m */; };
+		65CE0E1DDC4934A32E69EEF03708D670 /* Pods-SPCamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F3584D04BA4C4D05C031CBDD4A40C6 /* Pods-SPCamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78236F18B9CA7948BE8626CBFEC8980B /* SPCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD97A973C8DD55ACFBF893A045C9D2 /* SPCamera.m */; };
+		7F451DD1A4DFA028CB14A3949B1A3678 /* SPOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C355049269F0BC2B7449FAD5B4CFC48B /* SPOpenGLView.m */; };
+		89E2220B541F669DAE600B62F4B3B4F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A4476E214C408393AE454F3C2E2AF59E /* Pods-SPCamera_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BD4A34A35802B25D91BDC83B22BBCC /* Pods-SPCamera_Tests-dummy.m */; };
+		C4E217C6E84E7EC2B4BFCB7851DF8F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E1538F00A2C65F933FDF1BA02B463C3F /* Pods-SPCamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9E101B9B7F0D417F2F4ABF6FDF9FBE /* Pods-SPCamera_Example-dummy.m */; };
+		ECAB585DA95593252D5B3F7820803C7D /* SPCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 230B9F62402AC7A953D3C672D9F53148 /* SPCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFC358B61675E686BF92950BF91212B /* SPCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D9C9E470507E75328DC5DB7CB2CC5F /* SPCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51632C4CFDB4380CAA7770ABD34F7A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968028C12EB4288601582BE9D2764533;
+			remoteInfo = "Pods-SPCamera_Example";
+		};
+		BDF9044C59CBBF71F10F381899C47488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30F39352054DD36249167C0AC204BD1;
+			remoteInfo = SPCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BD4A34A35802B25D91BDC83B22BBCC /* Pods-SPCamera_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPCamera_Tests-dummy.m"; sourceTree = "<group>"; };
+		02DC700E357E87E1933E2364B96D3E91 /* SPCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPCamera.modulemap; sourceTree = "<group>"; };
+		0C95A634162D4CC7A3834C69D0888395 /* Pods-SPCamera_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPCamera_Example-Info.plist"; sourceTree = "<group>"; };
+		0D4624A5312457C2C2DB3FB1F73EF1FB /* SPCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPCamera-prefix.pch"; sourceTree = "<group>"; };
+		0E1D9AD0C98A96DCEE7D829BAA779427 /* SPCameraRecordEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPCameraRecordEncoder.m; path = SPCamera/Classes/SPCameraRecordEncoder.m; sourceTree = "<group>"; };
+		230B9F62402AC7A953D3C672D9F53148 /* SPCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPCamera.h; path = SPCamera/Classes/SPCamera.h; sourceTree = "<group>"; };
+		284A297B0CF7BD4273A238BEA39556D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36A9706E4D802825CE86EAEBDE4C464A /* SPCameraRecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPCameraRecordEncoder.h; path = SPCamera/Classes/SPCameraRecordEncoder.h; sourceTree = "<group>"; };
+		3D14DAD9D297D5F1A60733F11A6FF9DE /* Pods_SPCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPCamera_Example.framework; path = "Pods-SPCamera_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4586DD5CE45C48CE9539369DCBDB9028 /* Pods-SPCamera_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPCamera_Tests-Info.plist"; sourceTree = "<group>"; };
+		463A2DE71E648C3C70302498C54A29DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		464A3DB8E3FEE9C02EE7E8712D196926 /* SPOpenGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPOpenGLView.h; path = SPCamera/Classes/SPOpenGLView.h; sourceTree = "<group>"; };
+		469ED8B7EB358511A9F2EE6F636D464E /* Pods-SPCamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPCamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E789838F8859FF13C9198148BA82908 /* SPCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPCamera-dummy.m"; sourceTree = "<group>"; };
+		5D995E0550094CA1C13C5779E366C697 /* Pods-SPCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5ECA0E9CC12C910D537E033FC7ED3D53 /* Pods-SPCamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPCamera_Tests.modulemap"; sourceTree = "<group>"; };
+		61F3584D04BA4C4D05C031CBDD4A40C6 /* Pods-SPCamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPCamera_Example-umbrella.h"; sourceTree = "<group>"; };
+		6620694F56A8B71473429CBF2C4F1FFA /* Pods-SPCamera_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPCamera_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B66A1AF6C59379AEF618C271A4A8264 /* Pods-SPCamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPCamera_Example.modulemap"; sourceTree = "<group>"; };
+		752377FF08D013DC0E3FFD8155F9FB5D /* Pods-SPCamera_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPCamera_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77991840C002E966A716966D795531E9 /* Pods-SPCamera_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPCamera_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7FFD97A973C8DD55ACFBF893A045C9D2 /* SPCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPCamera.m; path = SPCamera/Classes/SPCamera.m; sourceTree = "<group>"; };
+		802C95AA1B5E7173BF0903723D4C58A8 /* Pods-SPCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A07FC09BB9E4EA8B6D7050FD8828842 /* Pods_SPCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPCamera_Tests.framework; path = "Pods-SPCamera_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7C78D8F5060DEF128FF531ACAA27590 /* SPCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPCamera.framework; path = SPCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C355049269F0BC2B7449FAD5B4CFC48B /* SPOpenGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPOpenGLView.m; path = SPCamera/Classes/SPOpenGLView.m; sourceTree = "<group>"; };
+		CE171E32CF9975C246C9F2E068DDBA28 /* Pods-SPCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E2D9747AA0411D78416335B537E4A330 /* Pods-SPCamera_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPCamera_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2E157226DC0FE945DE854C70A40D174 /* Pods-SPCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E84713919F0F51569ACA4E30ECC2E4B8 /* SPCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPCamera.xcconfig; sourceTree = "<group>"; };
+		E8DBD673827E2BFEE929C629B5514A22 /* Pods-SPCamera_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPCamera_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE9E101B9B7F0D417F2F4ABF6FDF9FBE /* Pods-SPCamera_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPCamera_Example-dummy.m"; sourceTree = "<group>"; };
+		F462A7027F23A8DC7913834AA03C81BB /* SPCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPCamera-Info.plist"; sourceTree = "<group>"; };
+		F7D9C9E470507E75328DC5DB7CB2CC5F /* SPCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPCamera-umbrella.h"; sourceTree = "<group>"; };
+		F8B5BD0DD6D678627049C1515F3ACF0F /* SPCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SPCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06538A40D1B7D579D5BA8F960F0F5EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0FF436E1C4A452743CDA93F51CC89B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAECC53E54DD2924335308CA1CBFD1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E217C6E84E7EC2B4BFCB7851DF8F29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED76C15BF6C41B0E025BF838D1AC5935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2220B541F669DAE600B62F4B3B4F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EF35D1CED99B3E7EC4374E1733EAFC /* Pods-SPCamera_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECA0E9CC12C910D537E033FC7ED3D53 /* Pods-SPCamera_Tests.modulemap */,
+				752377FF08D013DC0E3FFD8155F9FB5D /* Pods-SPCamera_Tests-acknowledgements.markdown */,
+				469ED8B7EB358511A9F2EE6F636D464E /* Pods-SPCamera_Tests-acknowledgements.plist */,
+				02BD4A34A35802B25D91BDC83B22BBCC /* Pods-SPCamera_Tests-dummy.m */,
+				4586DD5CE45C48CE9539369DCBDB9028 /* Pods-SPCamera_Tests-Info.plist */,
+				77991840C002E966A716966D795531E9 /* Pods-SPCamera_Tests-umbrella.h */,
+				E2E157226DC0FE945DE854C70A40D174 /* Pods-SPCamera_Tests.debug.xcconfig */,
+				CE171E32CF9975C246C9F2E068DDBA28 /* Pods-SPCamera_Tests.release.xcconfig */,
+			);
+			name = "Pods-SPCamera_Tests";
+			path = "Target Support Files/Pods-SPCamera_Tests";
+			sourceTree = "<group>";
+		};
+		6BE8CB5D8ACA566BE0DF31CB5F59ACE5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB8CB350D94F45F05DEE318AB6BC9C8 /* Pods-SPCamera_Example */,
+				52EF35D1CED99B3E7EC4374E1733EAFC /* Pods-SPCamera_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		985CE864FD4C82D623A41DA38599C128 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C899A42E7EFC728EFFD6050650F5AB5 /* SPCamera */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9C899A42E7EFC728EFFD6050650F5AB5 /* SPCamera */ = {
+			isa = PBXGroup;
+			children = (
+				230B9F62402AC7A953D3C672D9F53148 /* SPCamera.h */,
+				7FFD97A973C8DD55ACFBF893A045C9D2 /* SPCamera.m */,
+				36A9706E4D802825CE86EAEBDE4C464A /* SPCameraRecordEncoder.h */,
+				0E1D9AD0C98A96DCEE7D829BAA779427 /* SPCameraRecordEncoder.m */,
+				464A3DB8E3FEE9C02EE7E8712D196926 /* SPOpenGLView.h */,
+				C355049269F0BC2B7449FAD5B4CFC48B /* SPOpenGLView.m */,
+				A0AA97197F3C591DAF7458E07AB6E342 /* Pod */,
+				FCC9C6710B6525DE0368802FFCE31409 /* Support Files */,
+			);
+			name = SPCamera;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9DB8CB350D94F45F05DEE318AB6BC9C8 /* Pods-SPCamera_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6B66A1AF6C59379AEF618C271A4A8264 /* Pods-SPCamera_Example.modulemap */,
+				E8DBD673827E2BFEE929C629B5514A22 /* Pods-SPCamera_Example-acknowledgements.markdown */,
+				6620694F56A8B71473429CBF2C4F1FFA /* Pods-SPCamera_Example-acknowledgements.plist */,
+				EE9E101B9B7F0D417F2F4ABF6FDF9FBE /* Pods-SPCamera_Example-dummy.m */,
+				E2D9747AA0411D78416335B537E4A330 /* Pods-SPCamera_Example-frameworks.sh */,
+				0C95A634162D4CC7A3834C69D0888395 /* Pods-SPCamera_Example-Info.plist */,
+				61F3584D04BA4C4D05C031CBDD4A40C6 /* Pods-SPCamera_Example-umbrella.h */,
+				5D995E0550094CA1C13C5779E366C697 /* Pods-SPCamera_Example.debug.xcconfig */,
+				802C95AA1B5E7173BF0903723D4C58A8 /* Pods-SPCamera_Example.release.xcconfig */,
+			);
+			name = "Pods-SPCamera_Example";
+			path = "Target Support Files/Pods-SPCamera_Example";
+			sourceTree = "<group>";
+		};
+		A0AA97197F3C591DAF7458E07AB6E342 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				463A2DE71E648C3C70302498C54A29DE /* LICENSE */,
+				284A297B0CF7BD4273A238BEA39556D3 /* README.md */,
+				F8B5BD0DD6D678627049C1515F3ACF0F /* SPCamera.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				985CE864FD4C82D623A41DA38599C128 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D976B28E55A3B9168A3D1A5E417F31C2 /* Products */,
+				6BE8CB5D8ACA566BE0DF31CB5F59ACE5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D976B28E55A3B9168A3D1A5E417F31C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D14DAD9D297D5F1A60733F11A6FF9DE /* Pods_SPCamera_Example.framework */,
+				9A07FC09BB9E4EA8B6D7050FD8828842 /* Pods_SPCamera_Tests.framework */,
+				B7C78D8F5060DEF128FF531ACAA27590 /* SPCamera.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC9C6710B6525DE0368802FFCE31409 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02DC700E357E87E1933E2364B96D3E91 /* SPCamera.modulemap */,
+				E84713919F0F51569ACA4E30ECC2E4B8 /* SPCamera.xcconfig */,
+				4E789838F8859FF13C9198148BA82908 /* SPCamera-dummy.m */,
+				F462A7027F23A8DC7913834AA03C81BB /* SPCamera-Info.plist */,
+				0D4624A5312457C2C2DB3FB1F73EF1FB /* SPCamera-prefix.pch */,
+				F7D9C9E470507E75328DC5DB7CB2CC5F /* SPCamera-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SPCamera";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4904FACC56CE3B0DFB10DDD8C66C3973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CE0E1DDC4934A32E69EEF03708D670 /* Pods-SPCamera_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A085B725F634BE29EE007F42D1B3E6ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFC358B61675E686BF92950BF91212B /* SPCamera-umbrella.h in Headers */,
+				ECAB585DA95593252D5B3F7820803C7D /* SPCamera.h in Headers */,
+				5A0955AD59CBAAFB0D9B37133728D9EC /* SPCameraRecordEncoder.h in Headers */,
+				0290EAE53179E62BD0B605CC7112A38B /* SPOpenGLView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A8903E5828AC37B155E35D3C3C39D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D435BD9EA8FA0EE413E246A73B1580 /* Pods-SPCamera_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1ACC2D982C77C4FCA0FD261BBC0B6D94 /* Pods-SPCamera_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C7E3952D2F4C8DBC02533873B7EB4A /* Build configuration list for PBXNativeTarget "Pods-SPCamera_Tests" */;
+			buildPhases = (
+				A2A8903E5828AC37B155E35D3C3C39D6 /* Headers */,
+				9ED82877311D31F07B991DFF2E7FB548 /* Sources */,
+				ED76C15BF6C41B0E025BF838D1AC5935 /* Frameworks */,
+				E6337977295CAF6CA50CEBB08EEDB8F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9BA1ED83E7E546BC680447C4685A4F /* PBXTargetDependency */,
+			);
+			name = "Pods-SPCamera_Tests";
+			productName = "Pods-SPCamera_Tests";
+			productReference = 9A07FC09BB9E4EA8B6D7050FD8828842 /* Pods_SPCamera_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		968028C12EB4288601582BE9D2764533 /* Pods-SPCamera_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB9EF0830DDED6F06E8D2ECFC1F4AEB /* Build configuration list for PBXNativeTarget "Pods-SPCamera_Example" */;
+			buildPhases = (
+				4904FACC56CE3B0DFB10DDD8C66C3973 /* Headers */,
+				A3EEE142225C8EDC9A1A953D37688E80 /* Sources */,
+				06538A40D1B7D579D5BA8F960F0F5EDF /* Frameworks */,
+				7708EC456B308F309BF681638D5A7E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5159BCB6E8886F1EFC8238A4C2A7DA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPCamera_Example";
+			productName = "Pods-SPCamera_Example";
+			productReference = 3D14DAD9D297D5F1A60733F11A6FF9DE /* Pods_SPCamera_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D30F39352054DD36249167C0AC204BD1 /* SPCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E734CFA6B1A2762D55F989ED87547E6 /* Build configuration list for PBXNativeTarget "SPCamera" */;
+			buildPhases = (
+				A085B725F634BE29EE007F42D1B3E6ED /* Headers */,
+				2C8672BB9646B6F792A3FD251D34B4BD /* Sources */,
+				AAECC53E54DD2924335308CA1CBFD1AF /* Frameworks */,
+				B261C7C17DA7B00FA1DA3082FFBC2B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPCamera;
+			productName = SPCamera;
+			productReference = B7C78D8F5060DEF128FF531ACAA27590 /* SPCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D976B28E55A3B9168A3D1A5E417F31C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968028C12EB4288601582BE9D2764533 /* Pods-SPCamera_Example */,
+				1ACC2D982C77C4FCA0FD261BBC0B6D94 /* Pods-SPCamera_Tests */,
+				D30F39352054DD36249167C0AC204BD1 /* SPCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7708EC456B308F309BF681638D5A7E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B261C7C17DA7B00FA1DA3082FFBC2B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6337977295CAF6CA50CEBB08EEDB8F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C8672BB9646B6F792A3FD251D34B4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64018604E047481F05D4388EA158F69C /* SPCamera-dummy.m in Sources */,
+				78236F18B9CA7948BE8626CBFEC8980B /* SPCamera.m in Sources */,
+				3F6EA1AE76DE258300A7CE08BE277DAB /* SPCameraRecordEncoder.m in Sources */,
+				7F451DD1A4DFA028CB14A3949B1A3678 /* SPOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED82877311D31F07B991DFF2E7FB548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4476E214C408393AE454F3C2E2AF59E /* Pods-SPCamera_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EEE142225C8EDC9A1A953D37688E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1538F00A2C65F933FDF1BA02B463C3F /* Pods-SPCamera_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F9BA1ED83E7E546BC680447C4685A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPCamera_Example";
+			target = 968028C12EB4288601582BE9D2764533 /* Pods-SPCamera_Example */;
+			targetProxy = 51632C4CFDB4380CAA7770ABD34F7A5E /* PBXContainerItemProxy */;
+		};
+		E5159BCB6E8886F1EFC8238A4C2A7DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPCamera;
+			target = D30F39352054DD36249167C0AC204BD1 /* SPCamera */;
+			targetProxy = BDF9044C59CBBF71F10F381899C47488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C07FFC143AD417AB070DEB3FBB471C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D995E0550094CA1C13C5779E366C697 /* Pods-SPCamera_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPCamera_Example/Pods-SPCamera_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPCamera_Example/Pods-SPCamera_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CB7D062420198DA8F80EA03EEC29B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802C95AA1B5E7173BF0903723D4C58A8 /* Pods-SPCamera_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPCamera_Example/Pods-SPCamera_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPCamera_Example/Pods-SPCamera_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C9B2351C174389B02981C08EBA9D001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84713919F0F51569ACA4E30ECC2E4B8 /* SPCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPCamera/SPCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPCamera/SPCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPCamera/SPCamera.modulemap";
+				PRODUCT_MODULE_NAME = SPCamera;
+				PRODUCT_NAME = SPCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF23CE8B6845509E39E2033360BF8489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E157226DC0FE945DE854C70A40D174 /* Pods-SPCamera_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPCamera_Tests/Pods-SPCamera_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPCamera_Tests/Pods-SPCamera_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D24A5E92F521724CE0CD36B357C03CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84713919F0F51569ACA4E30ECC2E4B8 /* SPCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPCamera/SPCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPCamera/SPCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPCamera/SPCamera.modulemap";
+				PRODUCT_MODULE_NAME = SPCamera;
+				PRODUCT_NAME = SPCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED5BC428C59EF59D6FAC343FB89BC118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE171E32CF9975C246C9F2E068DDBA28 /* Pods-SPCamera_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPCamera_Tests/Pods-SPCamera_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPCamera_Tests/Pods-SPCamera_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E734CFA6B1A2762D55F989ED87547E6 /* Build configuration list for PBXNativeTarget "SPCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24A5E92F521724CE0CD36B357C03CC1 /* Debug */,
+				8C9B2351C174389B02981C08EBA9D001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB9EF0830DDED6F06E8D2ECFC1F4AEB /* Build configuration list for PBXNativeTarget "Pods-SPCamera_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C07FFC143AD417AB070DEB3FBB471C1 /* Debug */,
+				6CB7D062420198DA8F80EA03EEC29B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C7E3952D2F4C8DBC02533873B7EB4A /* Build configuration list for PBXNativeTarget "Pods-SPCamera_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF23CE8B6845509E39E2033360BF8489 /* Debug */,
+				ED5BC428C59EF59D6FAC343FB89BC118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
