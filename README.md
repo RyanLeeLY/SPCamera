@@ -22,7 +22,7 @@ pod 'SPCamera'
 
 ## Author
 
-yao.li, yao.li@cootek.cn
+yao.li, liyaoxjtu2013@gmail.com
 
 ## License
 

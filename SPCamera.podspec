@@ -24,7 +24,7 @@ A light framework for customized camera
   s.homepage         = 'https://github.com/RyanLeeLY/SPCamera'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yao.li' => 'yao.li@cootek.cn' }
+  s.author           = { 'yao.li' => 'liyaoxjtu2013@gmail.com' }
   s.source           = { :git => 'https://github.com/RyanLeeLY/SPCamera.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
