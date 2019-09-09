@@ -29,6 +29,14 @@ _previewView = [[SPOpenGLView alloc] initWithFrame:[UIScreen mainScreen].bounds]
     //  processing photo
     [self.previewView displayPixelBuffer:pixelBuffer];
 }
+
+- (void)camera:(SPCamera *)camera didVideoStopOutputInFilePath:(NSString *)filePath {
+   
+}
+
+- (void)camera:(SPCamera *)camera didOutputPhotoImage:(UIImage *)image {
+
+}
 ```
 
 ### Start Capturing
