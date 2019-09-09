@@ -134,7 +134,7 @@ typedef NS_ENUM(NSUInteger, SPViewControllerFlashMode) {
             }
         }
         NSString *documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
-        NSDate *currentDate = [NSDate date];    //获取当前时间，日期
+        NSDate *currentDate = [NSDate date];
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         [dateFormatter setDateFormat:@"YYYYMMddhhmmssSS"];
         NSString *dateString = [dateFormatter stringFromDate:currentDate];

@@ -152,7 +152,10 @@ typedef enum : NSUInteger {
         if (self.videoConnection.supportsVideoMirroring && self.isFrontCamera) {
             self.videoConnection.videoMirrored = YES;
         }
-        self.audioConnection;
+        
+        if (!_audioConnection) {
+            _audioConnection = [self.audioOutput connectionWithMediaType:AVMediaTypeAudio];
+        }
         
         [_captureSession beginConfiguration]; // the session to which the receiver's AVCaptureDeviceInput is added.
         if ( [deviceInput.device lockForConfiguration:NULL] ) {
@@ -277,7 +280,7 @@ typedef enum : NSUInteger {
         NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
         [devices enumerateObjectsUsingBlock:^(AVCaptureDevice * _Nonnull device, NSUInteger idx, BOOL * _Nonnull stop) {
             if ([device position] == self.cameraPosition) {
-                _camera = device;
+                self->_camera = device;
             }
         }];
     }
@@ -361,7 +364,7 @@ typedef enum : NSUInteger {
 - (AVCaptureFlashMode)flashMode {
     if (!self.camera.hasFlash
         || !self.camera.isFlashAvailable) {
-        return AVCaptureTorchModeOff;
+        return AVCaptureFlashModeOff;
     }
     
     return self.camera.flashMode;
